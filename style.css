@@ -1,0 +1,170 @@
+header{
+    margin-top: -.6rem;
+
+}
+
+.sociallinks{
+    background: rgb(63, 62, 62);
+    padding: .5rem 1rem;
+    height: 1rem;   
+    
+    
+}
+.sociallinks .leftnav{
+    text-decoration: none;
+    padding-left: 1rem;
+    transition: all .3s ease;  
+    float: left;
+
+}
+.sociallinks .rightnav{
+    text-decoration: none;
+    padding-right: 5rem;
+    transition: all .3s ease;  
+    float: right;
+}
+.sociallinks .leftnav a{
+    text-decoration: none;
+    color: white;
+}
+.sociallinks .leftnav select{
+    text-decoration: none;
+    color: black;
+}
+.sociallinks .leftnav span{
+    color: white;
+}
+
+.sociallinks .rightnav a{
+    text-decoration: none;
+    color: white;
+    padding-left: .5rem;
+}
+.sociallinks .rightnav a img{
+    height: 15px;
+    width: 15px;
+    background: white;
+    
+}
+.logo{
+    background-color: black;
+}
+
+.logo img{
+    height: 5.9rem;
+    width: 15rem;
+    padding-left: 40%;
+}
+
+
+.newsfeeds{
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+.newsfeeds h1{
+    margin-bottom: 1rem;
+    font-size: 2.3rem;
+}
+
+.newsfeeds .box{
+    height: 10rem;
+}
+
+.newsfeeds .box img{
+    float: left;
+    width: 10rem;
+    height: 6rem;
+    padding-right: .5rem;
+    padding-bottom: 1rem;
+}
+.newsfeeds .box span{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.newsfeeds .box p{
+    text-align: justify;
+    
+}
+
+nav {
+    overflow: hidden;
+    background: rgb(235, 83, 83);
+    transition: 0.6s;
+
+  }
+nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    background: rgb(235, 83, 83);
+    transition: 1.5s;
+    padding-left: 1rem;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.sticky + .newsfeeds {
+    padding-top: 60px;
+  }
+
+
+footer{
+      
+      background-color: black;
+  }
+
+footer table tr td span{
+    color: #f2f2f2;
+    font-family: proximanova,roboto,arial,sans-serif;
+    font-size: 12px;
+    line-height: 1.4;
+    color: #ccc;
+}
+
+.card {
+    transition: 0.3s;
+    width: 45rem;
+    background-color: black;
+    color:white;
+    padding-left: 5rem;
+    display: inline-block;
+    padding: 5px;
+  }
+
+  
+.container {
+    padding: 2px 16px;   
+    width: 100%;
+  }
+
+.container  h4 { 
+    display: flex; 
+    flex-direction: row; 
+} 
+
+.container h4:before,.container h4:after {
+    content: "";
+    flex: 2 1;
+    border-bottom: 2px solid rgb(226, 223, 223);
+    margin: auto;
+    
+}
+
+
+
+.container a{
+    text-decoration: none;
+    color: white;    
+    font-size: 15px;
+}
+
+.container a:hover{
+    color: rgb(136, 136, 136);
+}
